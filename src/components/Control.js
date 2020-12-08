@@ -7,6 +7,7 @@ import { withFirestore, isLoaded } from "react-redux-firebase";
 class Control extends React.Component {
   render() {
     const auth = this.props.firebase.auth();
+    console.log(auth);
     if (!isLoaded(auth)) {
       return (
         <React.Fragment>
@@ -22,12 +23,9 @@ class Control extends React.Component {
       );
     }
     if (isLoaded(auth) && auth.currentUser != null) {
-      return (
-        <React.Fragment>
-          {currentlyVisibleState}
-          <button onClick={this.handleClick}>{buttonText}</button>
-        </React.Fragment>
-      );
+      let currentlyVisibleState = null;
+      currentlyVisibleState = <h1>You are signed in! lolol</h1>;
+      return <React.Fragment>{currentlyVisibleState}</React.Fragment>;
     }
   }
 }

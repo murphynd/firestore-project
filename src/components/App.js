@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import Control from "./Control";
 
 import Signin from "./Signin";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -12,7 +13,9 @@ function App() {
         <Route path="/signin">
           <Signin />
         </Route>
-        <Route path="/">you signed in!</Route>
+        <Route path="/">
+          <Control />
+        </Route>
       </Switch>
     </Router>
   );

@@ -4,7 +4,7 @@ import firebase from "firebase/app";
 
 function Signin() {
   function doSignUp(event) {
-    event.preventDefault();
+    event.preventDefault(event);
     const email = event.target.email.value;
     const password = event.target.password.value;
     firebase
@@ -19,7 +19,8 @@ function Signin() {
   }
   let provider = new firebase.auth.GoogleAuthProvider();
 
-  function googleSignin() {
+  function googleSignin(event) {
+    event.preventDefault(event);
     firebase
       .auth()
       .signInWithRedirect(provider)
@@ -43,12 +44,13 @@ function Signin() {
     firebase
       .auth()
       .signOut()
+
       .then(
         function () {
           console.log("Signout Successful");
         },
         function (error) {
-          console.log("Signout failed");
+          console.log("Signout Failed");
         }
       );
   }
@@ -63,8 +65,7 @@ function Signin() {
       .then(function () {
         console.log("Successfully signed in!");
       })
-      .catch(function (error) {
-      });
+      .catch(function (error) {});
   }
 
   function doSignOut() {
@@ -78,7 +79,6 @@ function Signin() {
         console.log(error.message);
       });
   }
-
   return (
     <React.Fragment>
       <h1>Sign up</h1>
@@ -95,9 +95,15 @@ function Signin() {
       </form>
       <h1>Sign Out</h1>
       <button onClick={doSignOut}>Sign out</button>
+      <h1>Sign in with Google</h1>
       <button onClick={googleSignin} className="btn btn-outline-dark btn-lg">
         GOOGLE SIGN IN
       </button>
       <button onClick={googleSignout} className="btn btn-outline-dark btn-lg">
-export default Signin;
+        GOOGLE SIGN OUT
+      </button>
+    </React.Fragment>
+  );
+}
 
+export default Signin;
