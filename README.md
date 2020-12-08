@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+<br>
+<p align="center">
+  <u><big>||&emsp;<b><u>Fire Tic-Tac-Toe in React</u></b>&emsp;||</big></u>
+</p>
+<p align="center">
+    <!-- Project Avatar/Logo -->
+    <br>
+    <a href="https://github.com/Murphynd">
+        <img style="border-radius: 100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/1200px-Tic_tac_toe.svg.png">
+    </a>
+    <p align="center">
+      ___________________________
+    </p>
+    <!-- GitHub Link -->
+    <p align="center">
+        <a href="https://github.com/murphynd">
+            <strong>MurphyND</strong>
+        </a>
+    </p>
+    <!-- Project Shields -->
+    <p align="center">
+        <a href="https://github.com/murphynd/firestore-project/issues">
+            <img src="https://img.shields.io/github/issues/LondresRi/README-Assistance?style=plastic">
+        </a>
+        ¨
+        <a href="https://opensource.org/licenses/MIT">
+            <img src="https://img.shields.io/github/license/LondresRi/README-Assistance?color=orange&style=plastic">
+        </a>
+        ¨
+        <a href="https://linkedin.com/in/nataliedoraismurphy">
+            <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=2867B2">
+        </a>
+    </p>    
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <small>Initiated December 7th, 2020.</small>
+  <br>
+  <small>By Natalie Murphy</small>
+</p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 About the Project
 
-### `npm start`
+### 📖 Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+&emsp;
+<img src="">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 🦠 Known Bugs
 
-### `npm test`
+- None known yet. <a href="https://github.com/murphynd/firestore-project/issues">Please report if you discover any.</a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🛠 Built With
 
-### `npm run build`
+- [firebase](https://console.firebase.google.com/)
+- [React](https://reactjs.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [HTML5](https://html.com/html5/)
+- [Markdown](https://daringfireball.net/projects/markdown/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🏁 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📋 Prerequisites
 
-### `npm run eject`
+### Interactive Development Environment
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+&emsp;To view or edit the document which may include some HTML code, you will need an code editor or text editor. The popular open-source choices for an code editor are Atom and VisualStudio Code.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Code Editor Download:
+   - Option 1: [Atom](https://nodejs.org/en/)
+   - Option 2: [VisualStudio Code](https://www.npmjs.com/)
+2. Click the download most applicable to your OS and system.
+3. Wait for download to complete, then install -- Windows will run the setup exe and macOS will drag and drop into applications.
+4. Optionally, create a [GitHub Account](https://github.com)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### ⚙️ Setup and Use
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+### 🤝 Contributors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Author                                             |                 GitHub                  |                              Email                              |
+| -------------------------------------------------- | :-------------------------------------: | :-------------------------------------------------------------: |
+| [Natalie Murphy](https://linkedin.com/in/murphynd) | [Murphynd](https://github.com/Murphynd) | [NatalieMurphy500@gmail.com](mailto:nataliemurphy500@gmail.com) |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### ✉️ Contact and Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## If you have any feedback or concerns, please contact one of the contributors.
 
-### Analyzing the Bundle Size
+### ⚖️ License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2020 Natalie Murphy. All Rights Reserved.
 
-### Making a Progressive Web App
+```
+MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Copyright (c) 2020 Natalie Murphy
 
-### Advanced Configuration
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Deployment
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+### 🌟 Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### [Epicodus](https://www.epicodus.com/)
+
+> "A school for tech careers... to help people learn the skills they need to get great jobs."
+
+---
+
+<center><a href="#">Return to Top</a></center>
